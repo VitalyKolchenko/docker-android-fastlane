@@ -21,4 +21,4 @@ sdkmanager --sdk_root=$ANDROID_HOME "build-tools;${ANDROID_BUILD_TOOLS_VERSION}"
     "platforms;android-${ANDROID_VERSION}" \
     "platform-tools" \
     "extras;android;m2repository" \
-    "extras;google;m2repository" && \
+    "extras;google;m2repository"
