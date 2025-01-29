@@ -1,12 +1,12 @@
 FROM openjdk:17-bullseye
 
-LABEL softartdev <artik222012@gmail.com>
+LABEL vitaly <vitaly.kolchenko@gmail.com>
 
-ENV ANDROID_SDK_URL https://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip
-ENV ANDROID_API_LEVEL android-34
-ENV ANDROID_BUILD_TOOLS_VERSION 34.0.0
+ENV ANDROID_SDK_URL https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+ENV ANDROID_API_LEVEL android-35
+ENV ANDROID_BUILD_TOOLS_VERSION 35.0.0
 ENV ANDROID_HOME /usr/local/android-sdk-linux
-ENV ANDROID_VERSION 34
+ENV ANDROID_VERSION 35
 ENV PATH $PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/bin
 
 RUN mkdir "$ANDROID_HOME" .android && \
