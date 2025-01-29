@@ -1,4 +1,4 @@
-FROM openjdk:17-bullseye
+FROM openjdk:21-bullseye
 
 LABEL vitaly <vitaly.kolchenko@gmail.com>
 
